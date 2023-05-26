@@ -12,25 +12,24 @@ import FaceExpressionRecognitionWebcam from "~/components/faceapi/faceWebcamExpr
 import { onMount } from "solid-js";
 
 export default function Home() {
-  let main='';
+  let main: HTMLElement;
 
   onMount(() => {
     main = document.getElementById('main') as HTMLElement;
-    console.log(main)
   })
 
   return (
     <main id='main' >
       <Title>Cyber Data Charts Images</Title>
       <div class='flex-container'>
-        <GettingStartedChart/>
-        <MultiLineChart/>
         <ChartJSStreaming/>
+        <MultiLineChart/>
+        <GettingStartedChart/>
       </div>
       <FaceAPIExpressionDemo />
       <FaceExpressionRecognitionWebcam />
       <ImageCompress/>
-      <ScrollButton text='Scroll to' ref={() => main} />
+      <ScrollButton text='Scroll to' ref={main} />
       <Counter/>
       <Footer />
     </main>
