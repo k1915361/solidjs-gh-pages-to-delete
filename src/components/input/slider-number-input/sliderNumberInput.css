@@ -1,0 +1,20 @@
+.slider-number-input-container {
+    display: flex;
+    gap: 2px;
+    padding-right: 3px;
+}
+
+.slider {
+    width: 70%;
+}
+
+.number-input {
+    width: 30%;
+    border: rgba(128, 128, 128, 0.432) 1px solid;
+}
+
+input:focus{
+    outline:none;
+    outline:rgb(0, 0, 0) auto 1px;
+    background-color: rgba(151, 151, 151, 0.062);
+}
