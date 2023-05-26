@@ -2,43 +2,43 @@
   "/*404": [
     {
       "type": "script",
-      "href": "/solidjs-gh-pages/assets/_...404_-462a1070.js"
+      "href": "/solidjs-github-pages/assets/_...404_-a76c6f64.js"
     },
     {
       "type": "script",
-      "href": "/solidjs-gh-pages/assets/entry-client-f0fe3f7f.js"
+      "href": "/solidjs-github-pages/assets/entry-client-bd0e4282.js"
     },
     {
       "type": "style",
-      "href": "/solidjs-gh-pages/assets/entry-client-d870915a.css"
+      "href": "/solidjs-github-pages/assets/entry-client-d870915a.css"
     }
   ],
   "/": [
     {
       "type": "script",
-      "href": "/solidjs-gh-pages/assets/index-42eb6a49.js"
+      "href": "/solidjs-github-pages/assets/index-1a83351e.js"
     },
     {
       "type": "script",
-      "href": "/solidjs-gh-pages/assets/entry-client-f0fe3f7f.js"
+      "href": "/solidjs-github-pages/assets/entry-client-bd0e4282.js"
     },
     {
       "type": "style",
-      "href": "/solidjs-gh-pages/assets/entry-client-d870915a.css"
+      "href": "/solidjs-github-pages/assets/entry-client-d870915a.css"
     },
     {
       "type": "style",
-      "href": "/solidjs-gh-pages/assets/index-fdb6b3cf.css"
+      "href": "/solidjs-github-pages/assets/index-fdb6b3cf.css"
     }
   ],
   "entry-client": [
     {
       "type": "script",
-      "href": "/solidjs-gh-pages/assets/entry-client-f0fe3f7f.js"
+      "href": "/solidjs-github-pages/assets/entry-client-bd0e4282.js"
     },
     {
       "type": "style",
-      "href": "/solidjs-gh-pages/assets/entry-client-d870915a.css"
+      "href": "/solidjs-github-pages/assets/entry-client-d870915a.css"
     }
   ],
   "index.html": []
