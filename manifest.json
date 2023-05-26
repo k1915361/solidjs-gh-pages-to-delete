@@ -11,12 +11,12 @@
       "src/routes/[...404].tsx",
       "src/routes/index.tsx"
     ],
-    "file": "assets/entry-client-bd0e4282.js",
+    "file": "assets/entry-client-4c9273e5.js",
     "isEntry": true,
     "src": "src/entry-client.tsx"
   },
   "src/routes/[...404].tsx": {
-    "file": "assets/_...404_-a76c6f64.js",
+    "file": "assets/_...404_-88bce72d.js",
     "imports": [
       "src/entry-client.tsx"
     ],
@@ -31,7 +31,7 @@
     "css": [
       "assets/index-fdb6b3cf.css"
     ],
-    "file": "assets/index-1a83351e.js",
+    "file": "assets/index-79135c35.js",
     "imports": [
       "src/entry-client.tsx"
     ],

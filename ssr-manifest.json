@@ -34,17 +34,17 @@
   "node_modules/solid-start/server/ServerContext.tsx": [
   ],
   "node_modules/solid-start/server/components/HttpStatusCode.tsx": [
-    "/solidjs-github-pages/assets/_...404_-a76c6f64.js"
+    "/solidjs-gh-pages/assets/_...404_-88bce72d.js"
   ],
   "node_modules/solid-start/server/types.tsx": [
   ],
   "src/components/Counter.css": [
-    "/solidjs-github-pages/assets/index-1a83351e.js",
-    "/solidjs-github-pages/assets/index-fdb6b3cf.css"
+    "/solidjs-gh-pages/assets/index-79135c35.js",
+    "/solidjs-gh-pages/assets/index-fdb6b3cf.css"
   ],
   "src/components/Counter.tsx": [
-    "/solidjs-github-pages/assets/index-1a83351e.js",
-    "/solidjs-github-pages/assets/index-fdb6b3cf.css"
+    "/solidjs-gh-pages/assets/index-79135c35.js",
+    "/solidjs-gh-pages/assets/index-fdb6b3cf.css"
   ],
   "src/entry-client.tsx": [
   ],
@@ -53,10 +53,10 @@
   "src/root.tsx": [
   ],
   "src/routes/[...404].tsx": [
-    "/solidjs-github-pages/assets/_...404_-a76c6f64.js"
+    "/solidjs-gh-pages/assets/_...404_-88bce72d.js"
   ],
   "src/routes/index.tsx": [
-    "/solidjs-github-pages/assets/index-1a83351e.js",
-    "/solidjs-github-pages/assets/index-fdb6b3cf.css"
+    "/solidjs-gh-pages/assets/index-79135c35.js",
+    "/solidjs-gh-pages/assets/index-fdb6b3cf.css"
   ]
 }
