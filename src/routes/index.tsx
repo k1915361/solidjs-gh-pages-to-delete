@@ -9,12 +9,18 @@ import MultiLineChart from "~/components/chart/multiline-chartjs";
 import ChartJSStreaming from "~/components/chart/streaming/chartjs-streaming";
 import './index.css'
 import FaceExpressionRecognitionWebcam from "~/components/faceapi/faceWebcamExpressionRecognition";
+import { onMount } from "solid-js";
 
 export default function Home() {
   let main='';
 
+  onMount(() => {
+    main = document.getElementById('main') as HTMLElement;
+    console.log(main)
+  })
+
   return (
-    <main id='main' onScroll={() => console.log('scroll')}>
+    <main id='main' >
       <Title>Cyber Data Charts Images</Title>
       <div class='flex-container'>
         <GettingStartedChart/>

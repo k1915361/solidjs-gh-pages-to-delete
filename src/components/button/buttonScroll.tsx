@@ -3,7 +3,7 @@ import { Button } from "./button"
 
 export default function ScrollButton(props) {
   const { text, style } = props
-    let ref = props.ref
+    let ref = props.ref()
     return <Button
         onClick={() =>
             ref.scrollTo({
