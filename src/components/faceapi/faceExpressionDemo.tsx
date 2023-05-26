@@ -3,6 +3,7 @@ import { onMount } from 'solid-js';
 import { LIBRARY_IMAGE_FACE, changeFaceDetector, docElId, getFaceDetectorOptions, isFaceDetectionModelLoaded } from './faceAPIHelper';
 import './faceApi.css'
 import SelectOptions from '../input/selectOptions';
+import { isFileAPISupported, toUrl } from '~/utility/helper';
 
 export default function FaceAPIExpressionDemo() {
   let inputImg: HTMLImageElement
@@ -37,7 +38,7 @@ export default function FaceAPIExpressionDemo() {
   onMount(() => {
     run()
   })
-
+  
   return (
     <div class="center-content page-container">
       <div class="progress" id="loader">
@@ -62,6 +63,14 @@ export default function FaceAPIExpressionDemo() {
           inputImg.src = LIBRARY_IMAGE_FACE + e.target.value
           updateResults()
         }}
+      />
+      <input
+        type='file'
+        multiple={true}
+        onchange={e=>console.log(e.target.value)}
+        accept="image/*"
+        data-maxwidth={1900}
+        data-maxheight={1900} 
       />
 
       {false &&
