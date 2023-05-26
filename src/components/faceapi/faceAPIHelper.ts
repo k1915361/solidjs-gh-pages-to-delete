@@ -10,7 +10,7 @@ let minConfidence = 0.5
 let inputSize = 512
 let scoreThreshold = 0.5
 
-export const getElId = (id) => document.getElementById(id)
+export const docElId = (id: string): HTMLElement => document.getElementById(id)
 
 export function getFaceDetectorOptions() {
     return selectedFaceDetector === SSD_MOBILENETV1

@@ -1,14 +1,13 @@
 import { bottomOrTop } from "~/utility/helper" 
-import { Button } from "./Button"
+import { Button } from "./button"
 
 export default function ScrollButton(props) {
-  const { text, yPos, onclick, style } = props
-    let ref = props.mainRef
-    
+  const { text, style } = props
+    let ref = props.ref
     return <Button
         onClick={() =>
-            props.mainRef.scrollTo({
-                top: bottomOrTop(props.mainRef),
+            ref.scrollTo({
+                top: bottomOrTop(ref),
                 behavior: 'smooth'
             })}
         style={{

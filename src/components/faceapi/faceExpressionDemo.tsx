@@ -1,6 +1,6 @@
 import * as faceapi from 'face-api.js';
 import { onMount } from 'solid-js';
-import { LIBRARY_IMAGE_FACE, changeFaceDetector, getElId, getFaceDetectorOptions, isFaceDetectionModelLoaded } from './faceAPIHelper';
+import { LIBRARY_IMAGE_FACE, changeFaceDetector, docElId, getFaceDetectorOptions, isFaceDetectionModelLoaded } from './faceAPIHelper';
 import './faceApi.css'
 import SelectOptions from '../input/selectOptions';
 
@@ -13,14 +13,14 @@ export default function FaceAPIExpressionDemo() {
       console.log('Model not loaded')
     await faceapi.loadFaceLandmarkModel('library/model/')
     await faceapi.loadFaceExpressionModel('library/model/')
-    const inputImgEl = getElId('inputImg')
+    const inputImgEl = docElId('inputImg')
     const options = getFaceDetectorOptions()
 
     const results = await faceapi.detectAllFaces(inputImgEl, options)
       .withFaceLandmarks()
       .withFaceExpressions()
 
-    const canvas = getElId('overlay')
+    const canvas = docElId('overlay')
     faceapi.matchDimensions(canvas, inputImgEl)
 
     const resizedResults = faceapi.resizeResults(results, inputImgEl)

@@ -1,0 +1,18 @@
+.grid-container {
+  display: grid;
+}
+
+.grid-container-fit {
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+}
+
+.grid-element {
+  padding: 1px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
