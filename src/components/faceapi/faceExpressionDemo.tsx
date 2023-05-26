@@ -1,9 +1,8 @@
 import * as faceapi from 'face-api.js';
 import { onMount } from 'solid-js';
 import { LIBRARY_IMAGE_FACE, changeFaceDetector, docElId, getFaceDetectorOptions, isFaceDetectionModelLoaded } from './faceAPIHelper';
-import './faceApi.css'
+import './faceAPI.css'
 import SelectOptions from '../input/selectOptions';
-import { isFileAPISupported, toUrl } from '~/utility/helper';
 
 export default function FaceAPIExpressionDemo() {
   let inputImg: HTMLImageElement
